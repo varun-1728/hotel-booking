@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.maplibregl-ctrl-bottom-right,
+.maplibregl-ctrl-bottom-left {
+  display: none;
+}

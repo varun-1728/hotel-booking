@@ -1,8 +1,8 @@
-# Project Name : AirBnB
+# Project Name : Hotel Booking
 
 ## **Description**
 
-Your project is a full-stack web application designed for listing and reviewing properties, similar to a simplified Airbnb. It leverages the **MERN stack** (MongoDB, Express, React, Node.js) to provide a seamless experience for users to find, explore, and review different types of listings.
+Your project is a full-stack web application designed for listing and reviewing properties, similar to a Hotel Booking website. It leverages the **MERN stack** (MongoDB, Express, React, Node.js) to provide a seamless experience for users to find, explore, and review different types of listings.
 
 The application includes:
 
@@ -76,8 +76,8 @@ These instructions will get you a copy of the project up and running on your loc
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/gunasaikumar3/AirBnB.git
-    cd AirBnB
+    git clone https://github.com/varun-1728/hotel-booking
+    cd hotel-booking
     ```
 
 2.  **Install backend dependencies:**

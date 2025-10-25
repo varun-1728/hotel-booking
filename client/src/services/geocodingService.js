@@ -4,7 +4,6 @@ import * as maptiler from "@maptiler/client";
 maptiler.config.apiKey = import.meta.env.VITE_MAP_TILER_KEY;
 
 export async function getCoordinatesFromAddress(address, countryCode) {
-  // Check if the geocoding service is available before calling it
   if (!maptiler.geocoding) {
     console.error("MapTiler geocoding client is not properly initialized.");
     return null;

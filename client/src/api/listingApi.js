@@ -2,7 +2,7 @@ import axios from "axios";
 import { wrapAsync } from "../utils/wrapAsync";
 import { getCoordinatesFromAddress } from "../services/geocodingService";
 
-const API_BASE_URL = "http://localhost:8080/api";
+const API_BASE_URL = "/api";
 
 export const fetchAllListings = wrapAsync(async () => {
   const res = await axios.get(`${API_BASE_URL}/listings`);

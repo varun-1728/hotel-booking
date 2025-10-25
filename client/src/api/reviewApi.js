@@ -1,7 +1,7 @@
 import axios from "axios";
 import { wrapAsync } from "../utils/wrapAsync";
 
-const API_BASE_URL = "http://localhost:8080/api";
+const API_BASE_URL = "/api";
 
 export const fetchListingReviews = wrapAsync(async (id) => {
   const res = await axios.get(`${API_BASE_URL}/listings/${id}/reviews`);

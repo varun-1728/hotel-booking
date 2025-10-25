@@ -5,7 +5,7 @@ import {
   refreshApi,
   logoutApi,
   registerApi,
-} from "../api/authApi.js";
+} from "../apis/authApi.js";
 
 export const login = createAsyncThunk(
   "auth/login",

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { createNewListing } from "../../api/listingApi";
+import { createNewListing } from "../../apis/listingApi";
 
 export default function New() {
   const navigate = useNavigate();

@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import Reviews from "../reviews/Review";
-import { fetchSingleListing, deleteSingleListing } from "../../api/listingApi";
+import { fetchSingleListing, deleteSingleListing } from "../../apis/listingApi";
 import Map from "../map/Map";
 
 export default function Show() {

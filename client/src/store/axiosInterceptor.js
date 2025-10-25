@@ -3,8 +3,8 @@ import store from "../store";
 import { refresh, logout } from "../store/authSlice";
 
 const api = axios.create({
-  baseURL: "/api",
-  withCredentials: true, // ✅ important for cookies
+  baseURL: import.meta.env.VITE_API_URL,
+  withCredentials: true,
 });
 
 // Add token before every request

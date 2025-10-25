@@ -1,7 +1,7 @@
 import axios from "axios";
 import { wrapAsync } from "../utils/wrapAsync";
 
-const API_BASE_URL = "/api";
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
 export const getUserId = (accessToken) => {
   const access = accessToken;

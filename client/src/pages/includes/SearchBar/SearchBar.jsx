@@ -4,7 +4,7 @@ import {
   faMagnifyingGlass,
   faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
-import { fetchAllListings } from "../../../api/listingApi";
+import { fetchAllListings } from "../../../apis/listingApi";
 import { useNavigate } from "react-router-dom";
 
 export default function SearchBar() {
